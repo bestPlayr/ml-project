@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #000000;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .list {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+        .try-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetes Prediction Model</h1>
+        <div class="section">
+            <h2>Project Description</h2>
+            <p>The Diabetes Prediction Model project aims to provide an intuitive web application that allows users to input specific health metrics and receive a prediction on their likelihood of having diabetes. This model is built using Python's machine learning libraries, specifically scikit-learn, and leverages logistic regression as the underlying algorithm for classification.</p>
+        </div>
+
+        <div class="section">
+            <h2>Project Overview</h2>
+            <h3>Data Collection</h3>
+            <p>The model utilizes a dataset containing various health parameters related to diabetes, including:</p>
+            <ul class="list">
+                <li><strong>Pregnancies:</strong> Number of times the individual has been pregnant.</li>
+                <li><strong>Glucose:</strong> Plasma glucose concentration a two hours in an oral glucose tolerance test (mg/dL).</li>
+                <li><strong>BloodPressure:</strong> Diastolic blood pressure (mm Hg).</li>
+                <li><strong>SkinThickness:</strong> Triceps skin fold thickness (mm).</li>
+                <li><strong>Insulin:</strong> 2-Hour serum insulin (mu U/ml).</li>
+                <li><strong>BMI:</strong> Body mass index (weight in kg/(height in m)<sup>2</sup>).</li>
+                <li><strong>DiabetesPedigreeFunction:</strong> A function that scores the likelihood of diabetes based on family history.</li>
+                <li><strong>Age:</strong> Age of the individual.</li>
+            </ul>
+            </div>
+         
+
+        <div class="section">
+            <h2>Approach Used</h2>
+            <p>The project follows a typical machine learning pipeline, including data collection, preprocessing, model training, evaluation, and deployment. The logistic regression algorithm was chosen due to its effectiveness in binary classification tasks.</p>
+        </div>
+        <button class="try-button" onclick="window.location.href='/model'">Try the Model</button>
+        <div class="footer">
+    
+            <p>&copy; 2024 Diabetes Prediction Model. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
